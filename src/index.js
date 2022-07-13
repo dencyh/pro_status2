@@ -19,7 +19,8 @@ const companies = require('./companies');
         for (let i = 0; i < pages[companyListItem].length; i++) {
 
             await page.goto(pages[companyListItem][i]);
-            await page.waitForSelector('.Table_name__-P4ig .DriverLink_container__35QA8');
+            console.log(pages[companyListItem][i])
+            await page.waitForSelector('.DriverLink_container__35QA8');
 
             /* Main logic*/
             let driversList = await page.evaluate(() => {

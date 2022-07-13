@@ -1,0 +1,8 @@
+.DS_Store
+/node_modules
+ProStatus.xlsx
+/src/companies.js
+/src/pages.js
+/src/parks.js
+/~/Library
+/src/test_auto.js

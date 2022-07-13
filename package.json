@@ -1,0 +1,21 @@
+{
+  "name": "pro_status",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Alexander Moryan <a.dencyh@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "fs-extra": "^10.1.0",
+    "puppeteer": "^15.3.2",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "pkg": "^5.8.0"
+  }
+}

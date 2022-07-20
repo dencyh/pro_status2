@@ -7,3 +7,5 @@ ProStatus.xlsx
 /~/Library
 /src/test_auto.js
 /src/browser.js
+*.command
+*.zip

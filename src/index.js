@@ -7,7 +7,7 @@ const parks = require('./parks');
 
 const start = async function scrape() {
     const browser = await puppeteer.launch({
-        headless: false,
+        headless: true,
         userDataDir: "~/Library/Application Support/Google/Chrome",
         LANGUAGE: "ru_Ru"
     });
